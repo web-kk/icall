@@ -1,0 +1,682 @@
+div,p,ul,li,h1,h2,h3,h4,ul,li,body{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 1.8;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+i,b{
+	list-style: none;
+}
+img{
+	border: 0;
+}
+/*导航栏*/
+.header{
+	background: #444;
+	line-height: 1;
+	width: 100%;
+	height: 40px;
+}
+.h-gg{
+	color: #a8a8aa;
+	font-size: 12px;
+	font-family: "HanHei SC", PingHei, "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.dhmap{
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 1024px;
+    height: 48px;
+    max-height: 44px;
+    background: #333;
+    background: rgba(0,0,0,0.8);
+    font-size: 18px;
+    -webkit-user-select: none;
+    position: absolute;
+    top:40px;
+    left: 0;
+    z-index: 10;
+}
+.dh{
+	width: 1000px;
+	height: 44px;
+	text-align: justify;
+	margin: 0 auto;
+}
+.dh-min{
+	width: auto;
+	height: 44px;
+	text-align: justify;
+	/*margin: 0 auto;*/
+	max-width: 767px;
+}
+.dh-min:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+.dh:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+.dh-min li{
+	display: inline-block;
+    position: relative;
+    height: 44px;
+    z-index: 1;
+    vertical-align: top;
+}
+.dh-min li a{
+	color: #fff;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 10px;
+    height: 44px;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-tap-highlight-color: transparent;
+    outline-offset: -7px;
+    font-size: 16px;
+    line-height: 2.75;
+    font-weight: 400;
+    letter-spacing: normal;
+    opacity: 1;
+}
+.dh li{
+	display: inline-block;
+    position: relative;
+    height: 44px;
+    z-index: 1;
+    vertical-align: top;
+}
+.dh li a{
+	color: #fff;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 10px;
+    height: 44px;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-tap-highlight-color: transparent;
+    outline-offset: -7px;
+    font-size: 16px;
+    line-height: 2.75;
+    font-weight: 400;
+    letter-spacing: normal;
+    opacity: 1;
+}
+.dh li a:hover{
+	opacity: 0.5;
+}
+.dh-min li a:hover{
+	opacity: 0.5;
+}
+.dh-min .dh-1 a{
+	background-repeat: no-repeat;
+    background-size: 20px 44px;
+    background-image: url(../img/apple_large.svg);
+    background-position: center center;
+    width: 20px;
+}
+.dh .dh-1 a{
+	background-repeat: no-repeat;
+    background-size: 20px 44px;
+    background-image: url(../img/apple_large.svg);
+    background-position: center center;
+    width: 20px;
+}
+.dh .dh-2 a{
+	background-repeat: no-repeat;
+    background-size: 31px 44px;
+    background-image: url(../img/mac_large.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 1.9375em;
+    max-width: 52.7px;
+}
+.dh .dh-3 a{
+	background-repeat: no-repeat;
+    background-size: 30px 44px;
+    background-image: url(../img/ipad_large.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 1.875em;
+    max-width: 51px;
+}
+.dh .dh-4 a{
+	background-repeat: no-repeat;
+    background-size: 48px 44px;
+    background-image: url(../img/iphone_large.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 3em;
+    max-width: 81.6px;
+}
+.dh .dh-5 a{
+	background-repeat: no-repeat;
+    background-size: 44px 44px;
+    background-image: url(../img/watch_large.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 2.75em;
+    max-width: 74.8px;
+}
+.dh .dh-6 a{
+	background-repeat: no-repeat;
+    background-size: 40px 44px;
+    background-image: url(../img/music_large.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 2.5em;
+    max-width: 68px;
+}
+.dh .dh-7 a{
+	background-repeat: no-repeat;
+    background-size: 57px 44px;
+    background-image: url(../img/support_large.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 3.5625em;
+    max-width: 96.9px;
+}
+.dh .dh-8 a{
+	background-repeat: no-repeat;
+    background-size: 20px 44px;
+    background-image: url(../img/search_large.svg);
+    background-position: center center;
+    width: 20px;
+}
+.dh .dh-9 a{
+	background-repeat: no-repeat;
+    background-size: 18px 44px;
+    background-image: url(../img/bag_large.svg);
+    background-position: center center;
+    width: 18px;
+}
+.dh-min .dh-9 a{
+	background-repeat: no-repeat;
+    background-size: 18px 44px;
+    background-image: url(../img/bag_large.svg);
+    background-position: center center;
+    width: 18px;
+}
+.dh-min .dh-10 a{
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/28.png);
+    background-position: center center;
+    width: 18px;
+}
+.dh-min span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.dh span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.dhmapq-2{
+	display: none;
+	max-width: 767px;
+}
+/*banner*/
+.banner-f{
+	width: 100%;
+	height: calc(100vh - 76px);
+	background: #000000;
+}
+.banner-f a{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    will-change: transform;
+    -webkit-transform: translate3d(100%, 0, 0);
+    /*background: #000;*/
+
+}
+.banner{
+	background: url(../img/1.jpg);
+	background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.b-text{
+	position: absolute;
+    z-index: 1000;
+    top: 18%;
+    height: 86%;
+    width: 100%;
+    text-align: center;
+    -webkit-user-select: none;
+}
+.b-text h1{
+	width: 95px;
+    height: 24px;
+    background-size: 95px 24px;
+    background-repeat: no-repeat;
+    background-image: url(../img/logo_iphone_large.png);
+    left: 50%;
+    margin-left: -47.5px;
+    position: relative;
+}
+.b-text h2{
+	font-size: 30px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0em;
+    margin-top: 0.3em;
+}
+/*4个图片*/
+.picture{
+	width: 100%;
+	box-sizing: border-box;
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
+}
+.picture li{
+    box-sizing: border-box;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    width: 25%;
+    height:200px;
+	position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    float: left;
+    min-height: 2px;
+}
+.picture li a{
+	display: block;
+	width: 100%;
+	height:200px;
+	position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    float: left;
+    min-height: 2px;
+}
+.pic-1 a{
+	background-position: center center;
+	background-size: 360px 200px;
+    background-repeat: no-repeat;
+    background-image: url(../img/2.jpg);
+}
+.pic-2 a{
+	background-position: center center;
+	background-size: 360px 200px;
+    background-repeat: no-repeat;
+    background-image: url(../img/3.jpg);
+}
+.pic-3 a{
+	background-position: center center;
+	background-size: 360px 200px;
+    background-repeat: no-repeat;
+    background-image: url(../img/4.jpg);
+}
+.pic-4 a{
+	background-position: center center;
+	background-size: 360px 200px;
+    background-repeat: no-repeat;
+    background-image: url(../img/5.jpg);
+}
+/*foot*/
+.foot{
+	font-size: 12px;
+    line-height: 1.66667;
+    font-weight: 400;
+    letter-spacing: normal;
+    background-color: #f2f2f2;
+    color: #666;
+	width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.foot-in{
+	margin: 0 auto;
+    padding: 0 22px;
+    max-width: 980px;
+}
+/*only*/
+.only{
+	border-bottom: 1px solid #e3e3e3;
+    color: #999;
+    padding: 16px 0 11px;
+}
+.only li{
+	font-size: 12px;
+    line-height: 1.33333;
+    font-weight: 400;
+    letter-spacing: normal;
+    padding-bottom: 5px;
+}
+/*allfw*/
+.allfw{
+	font-size: 12px;
+    line-height: 1.66667;
+    font-weight: 400;
+    letter-spacing: normal;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+}
+.allfw-in{
+	width: 20%;
+	float: left;
+}
+.fw-in{
+	width: 100%;
+    position: relative;
+    z-index: 10000;
+    min-height: 2px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    pointer-events: none;
+}
+.allfw h3{
+	font-size: 12px;
+    line-height: 1.66667;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #333;
+    margin: 0;
+    position: relative;
+}
+.ev-in{
+	margin-right: 20px;
+    list-style: none;
+    padding: 0;
+}
+.ev-in a{
+	color: #999;
+}
+.fw-in h3 a{
+	
+	
+}
+
+/**/
+.foot-1:before{
+	content: "";
+	display: block;
+	clear: both;
+	width: 100%;
+	height: 20px;
+}
+.foot-1 a{
+	    color: #0070c9;
+}
+.foot-1{
+	border-bottom: 1px solid #e3e3e3;
+	margin-bottom: 6px;
+    padding-bottom: 5px;
+}
+.copyright{
+	margin-right: 26px;
+    float: left;
+}
+.links{
+	margin-right: 26px;
+    float: left;
+}
+.link{
+	border-right: 1px solid #d6d6d6;
+    margin-right: 10px;
+    padding-right: 12px;
+    white-space: nowrap;
+}
+.link{
+	color: #999;
+}
+.foot-3{
+	margin-bottom: 20px;
+    color: #999;
+}
+.foot-3:before{
+	content: "";
+	display: block;
+	clear: both;
+}
+.foot-3 a{
+	color: #999999;
+}
+.foot-2{
+	position: relative;
+}
+.country{
+	position: absolute;
+	top: 0;
+	right: 20px;
+}
+.country a{
+	color: #999999;
+	float: left;
+	padding-left: 5px;
+	
+}
+.country span{
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/16.png) no-repeat;
+	float: left;
+}
+.fw-in b{
+	float: right;
+	margin-right: 10px;
+	display: none;
+}
+.allfw2{
+	display: none;
+}
+/**/
+@media only screen and (max-width:767px ) {
+	.h-gg{
+		margin-left: auto;
+	    width: auto;
+	    padding: 0 16px;
+	    left: 0;
+	    line-height: 40px;
+	    overflow: hidden;
+	    text-decoration: none;
+	    text-overflow: ellipsis;
+	    text-align: right;
+	}
+	.dhmap{
+		/*margin: 0 auto;*/
+	    max-width: 767px;
+	    min-width: 336px;
+	    z-index: 2;
+	}
+	.dhmapq{
+		display: none;
+	}
+	.dhmapq-2{
+		display: block;
+	}
+	.banner{
+		background-size: auto 100%;
+	}
+	.b-text h1{
+		width: 72px;
+	    height: 18px;
+	    background-size: 72px 18px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/logo_iphone_small.png);
+	    left: 50%;
+	    margin-left: -47.5px;
+	    position: relative;
+	}
+	.b-text h2{
+		font-size: 32px;
+	    line-height: 1;
+	    font-weight: 200;
+	    letter-spacing: 0em;
+	}
+	.picture li{
+		width: 100%;
+	}
+	.pic-1 a{
+		background-position: center center;
+		background-size: 736px 200px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/2-1.jpg);
+	}
+	.pic-2 a{
+		background-position: center center;
+		background-size: 736px 200px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/3-1.jpg);
+	}
+	.pic-3 a{
+		background-position: center center;
+		background-size: 736px 200px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/4-1.jpg);
+	}
+	.pic-4 a{
+		background-position: center center;
+		background-size: 736px 200px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/5-1.jpg);
+	}
+	.allfw-in{
+		width: 100%;
+		float: left;
+	}
+	.allfw h3{
+		border-bottom: 1px solid #ccc;
+		font-size: 14px;
+    line-height: 2.78571;
+    font-weight: 400;
+    letter-spacing: normal;
+	}
+	.ev-in li{
+		height: 30px;
+		line-height: 30px;
+	}
+	.fw-in b{
+		float: right;
+		margin-right: 10px;
+		display: block;
+	}
+	.ev-in{
+		height: 0;
+		overflow: hidden;
+		transition: all 0.5s linear;
+	}
+	.active{
+		height: auto;
+	}
+	.allfw1{
+		display: none;
+		
+	}
+	.allfw2{
+		display: block;
+	}
+}
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+	.h-gg{
+		margin-left: auto;
+	    width: auto;
+	    padding: 0 16px;
+	    left: 0;
+	    line-height: 40px;
+	    overflow: hidden;
+	    text-decoration: none;
+	    text-overflow: ellipsis;
+	    text-align: right;
+	}
+	.dh{
+		width: auto;
+	}
+	.dhmap{
+		margin: 0 auto;
+	    min-width: 767px;
+	    z-index: 2;
+	}
+	.dhmapq{
+		    margin: 0 auto;
+		    max-width: 980px;
+		    padding: 0 22px;
+		    position: relative;
+		    z-index: 2;
+	}
+	.picture li{
+		width: 50%;
+	}
+	.pic-1 a{
+		background-position: center center;
+		background-size: 640px 200px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/2-2.jpg);
+	}
+	.pic-2 a{
+		background-position: center center;
+		background-size: 640px 200px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/3-2.jpg);
+	}
+	.pic-3 a{
+		background-position: center center;
+		background-size: 640px 200px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/4-2.jpg);
+	}
+	.pic-4 a{
+		background-position: center center;
+		background-size: 640px 200px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/5-2.jpg);
+	}
+	
+}
+@media only screen and (min-width:1023px ) {
+	.h-gg{
+	    line-height: 40px;
+	    overflow: hidden;
+	    text-decoration: none;
+	    text-overflow: ellipsis;
+	    text-align: right;
+	    max-width: 976px;
+	    margin: 0 auto;
+	    
+	}
+}
+
